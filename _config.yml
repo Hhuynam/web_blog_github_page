@@ -24,8 +24,8 @@ collections:
     output: true
     permalink: /:title/
 
-baseurl: "/web_blog_github_page"  # Đặt baseurl khớp với tên repo
-url: "https://hhuynam.github.io"  # URL gốc của GitHub Pages
+url: "https://namhablog.zapto.org"
+baseurl: "/web_blog_github_page"
 
 github_username: Hhuynam
 theme: null
