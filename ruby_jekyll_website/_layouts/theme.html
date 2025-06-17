@@ -9,35 +9,41 @@
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <!-- Custom CSS -->
-  <link rel="stylesheet" href="/assets/style.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/style.css">
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
+  <!-- Header -->
   <header class="bg-dark text-white py-3">
     <div class="container d-flex justify-content-between align-items-center">
       <h1 class="m-0">{{ site.title }}</h1>
-      <button id="toggle-nav" class="btn btn-outline-light">
-        <i class="fas fa-bars"></i>
-      </button>
+      <div>
+        <a class="btn btn-outline-light mx-2" href="{{ site.baseurl }}/gioithieu/">Giới thiệu</a>
+        <a class="btn btn-outline-light mx-2" href="{{ site.baseurl }}/lienhe/">Liên hệ</a>
+        <button id="toggle-nav" class="btn btn-outline-light">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
     </div>
   </header>
-  
-  <!-- Navbar -->
+
+  <!-- Navbar chỉ chứa các project -->
   <nav id="main-nav" class="bg-light p-3">
     <div class="container">
       <ul class="nav">
-        <li class="nav-item"><a class="nav-link" href="/gioithieu/">Giới thiệu</a></li>
-        <li class="nav-item"><a class="nav-link" href="/lienhe/">Liên hệ</a></li>
         <li class="nav-item">
-          <a class="nav-link" href="/website_ChiaSeKienThuc/">Website chia sẻ kiến thức</a>
+          <a class="nav-link" href="{{ site.baseurl }}/website_ChiaSeKienThuc/">Website chia sẻ kiến thức</a>
         </li>
+        <!-- Thêm các project khác tại đây -->
       </ul>
     </div>
   </nav>
 
+  <!-- Nội dung chính -->
   <main class="container my-5">
     {{ content }}
   </main>
+
   <!-- jQuery Script -->
   <script>
     $(document).ready(function() {
