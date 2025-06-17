@@ -6,4 +6,4 @@ categories: projects
 ---
 Project Website chia sẻ kiến thức!
 
-![alt img](../assets/image/image.png)
+![alt img]({{ site.baseurl }}/assets/image/image.png)
