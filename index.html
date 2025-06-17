@@ -1,0 +1,22 @@
+---
+layout: theme
+title: "Trang Chủ"
+permalink: /
+---
+
+<div class="container">
+  <h1>Website chia sẻ kiến thức</h1>
+  <ul class="list-unstyled">
+    {% for post in site.posts %}
+      <li class="mb-4">
+        <h2>
+          <a href="{{ post.url }}">{{ post.title }}</a>
+        </h2>
+        <p><small>Ngày đăng: {{ post.date | date: "%d-%m-%Y" }}</small></p>
+        <div>
+          {{ post.excerpt }}
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

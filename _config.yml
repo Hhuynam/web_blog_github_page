@@ -1,5 +1,5 @@
 title: Website Chia Sẻ Kiến Thức
-email: namha51023@example.com
+email: namha51023@gmail.com
 description: >-
   Blog chia sẻ kiến thức về lập trình, công nghệ, phát triển cá nhân và nhiều chủ đề hữu ích.
   Bạn có thể chỉnh sửa nội dung này trong _config.yml để cập nhật thông tin trang web.
@@ -31,7 +31,7 @@ github_username: Hhuynam
 theme: null
 plugins:
   - jekyll-feed
-
+future: true
 exclude:
   - .sass-cache/
   - .jekyll-cache/
