@@ -1,0 +1,45 @@
+title: Website Chia Sẻ Kiến Thức
+email: namha51023@gmail.com
+description: >-
+  Blog chia sẻ kiến thức về lập trình, công nghệ, phát triển cá nhân và nhiều chủ đề hữu ích.
+  Bạn có thể chỉnh sửa nội dung này trong _config.yml để cập nhật thông tin trang web.
+
+# Các mặc định riêng cho pages và posts
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: theme
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
+      permalink: /page/:title/
+
+# Định nghĩa collection cho các trang tĩnh trong _pages
+collections:
+  pages:
+    output: true
+    permalink: /:title/
+
+baseurl: ""  # Xóa baseurl vì giờ web ở root domain
+url: "https://namha51023.zapto.org"
+
+github_username: Hhuynam
+theme: null
+plugins:
+  - jekyll-feed
+future: true
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
