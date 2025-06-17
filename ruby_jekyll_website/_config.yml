@@ -26,7 +26,7 @@ collections:
     permalink: /:title/
 
 baseurl: ""        
-url: "https://github.com/Hhuynam"  
+url: "https://hhuynam.github.io/web_blog_github_page/"  
 
 github_username: Hhuynam
 theme: null
