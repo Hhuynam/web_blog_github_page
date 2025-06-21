@@ -1,4 +1,6 @@
 # Đây là web blog cá nhân của tôi, nơi giới thiệu về bản thân, học tập, kinh nghiệm cá nhân, project đã làm
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 ![alt img](assets/image/image_home.png)
 
 url: https://hhuynam.github.io/web_blog_github_page/
