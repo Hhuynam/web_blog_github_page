@@ -28,7 +28,7 @@ Ban đầu mình xây dựng trò chơi này như một cách để:
 - **MediaPipe Hands**: thư viện machine learning của Google để nhận diện bàn tay, xác định vị trí và hướng di chuyển tay từ webcam.
 
 📷 *Minh họa: Khung giao diện khi khởi động game*  
-![placeholder for intro image](assets/image/intro-placeholder.png)
+<img src="{{ site.baseurl }}/assets/image/intro-placeholder.png" alt="Ảnh minh họa" style="display: block; margin: 0 auto;">
 
 ---
 
@@ -40,9 +40,9 @@ Người chơi có thể chọn **1 trong 2 chế độ**:
 - **Chế độ Hand Gesture**: Dùng webcam. Khi người chơi giơ tay, hệ thống sẽ xác định lòng bàn tay và chuyển động ngang để điều khiển giỏ.
 
 📷 *Minh họa: Nhận diện lòng bàn tay bằng MediaPipe*  
-![placeholder for hand tracking](assets/image/hand-placeholder.png)
+<img src="{{ site.baseurl }}/assets/image/hand-placeholder.png" alt="Ảnh minh họa" style="display: block; margin: 0 auto;">
 
----
+--
 
 ## Tính năng chính
 
@@ -52,7 +52,7 @@ Người chơi có thể chọn **1 trong 2 chế độ**:
 - **Tự động phát hiện khung hình & cử chỉ tay** – không cần phần cứng đặc biệt ngoài webcam.
 
 📷 *Minh họa: Giỏ đang hứng trái cây và điểm số tăng lên*  
-![placeholder for gameplay](assets/image/gameplay-placeholder.png)
+<img src="{{ site.baseurl }}/assets/image/gameplay-placeholder.png" alt="Ảnh minh họa" style="display: block; margin: 0 auto;">
 
 ---
 
@@ -64,7 +64,7 @@ Người chơi có thể chọn **1 trong 2 chế độ**:
 4. Bắt đầu hứng trái cây và tránh các vật cản.
 
 📷 *Minh họa: Giao diện menu chọn chế độ chơi*  
-![placeholder for mode selection](assets/image/mode-placeholder.png)
+<img src="{{ site.baseurl }}/assets/image/mode-placeholder.png" alt="Ảnh minh họa" style="display: block; margin: 0 auto;">
 
 ---
 
