@@ -3,24 +3,26 @@ layout: theme
 title: Trang chủ
 ---
 
-<h2>Xin chào!</h2>
-<p>Chào mừng bạn đến với blog cá nhân của tôi. Đây là nơi mình chia sẻ những bài viết thú vị, hướng dẫn và mẹo nhỏ về cuộc sống, công nghệ và sáng tạo.</p>
+<!-- Nội dung chính của trang chủ -->
+<h2>Chào mừng bạn đến blog của tôi!</h2>
+<p>Đây là nơi mình chia sẻ các bài viết cá nhân, hướng dẫn và khám phá sáng tạo.</p>
 
-<h3>Bài viết mới nhất:</h3>
+<!-- Nút dẫn đến bài viết mới nhất -->
 {% assign newest = site.posts | first %}
 <p>
-  👉 <a class="btn btn-primary" href="{{ newest.url }}">{{ newest.title }}</a>  
-  <small class="text-muted">({{ newest.date | date: "%d/%m/%Y" }})</small>
+  👉 <a class="btn btn-primary" href="{{ newest.url }}">{{ newest.title }}</a>
 </p>
 
-<!-- Quảng cáo nhẹ bên dưới -->
+<!-- Quảng cáo Google AdSense -->
 <div class="my-4 text-center">
   <ins class="adsbygoogle"
        style="display:block"
-       data-ad-client="ca-pub-168980283359228"
+       data-ad-client="ca-pub-1689802838359228"
        data-ad-slot="YOUR_SLOT_ID"
        data-ad-format="auto"
        data-full-width-responsive="true"></ins>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1689802838359228"
+     crossorigin="anonymous"></script>
   <script>
        (adsbygoogle = window.adsbygoogle || []).push({});
   </script>
