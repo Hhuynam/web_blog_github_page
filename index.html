@@ -1,22 +1,27 @@
 ---
 layout: theme
-title: "Trang Chủ"
-permalink: /
+title: Trang chủ
 ---
 
-<div class="container">
-  <h1>Website chia sẻ kiến thức</h1>
-  <ul class="list-unstyled">
-    {% for post in site.posts %}
-      <li class="mb-4">
-        <h2>
-          <a href="{{ post.url }}">{{ post.title }}</a>
-        </h2>
-        <p><small>Ngày đăng: {{ post.date | date: "%d-%m-%Y" }}</small></p>
-        <div>
-          {{ post.excerpt }}
-        </div>
-      </li>
-    {% endfor %}
-  </ul>
+<h2>Xin chào!</h2>
+<p>Chào mừng bạn đến với blog cá nhân của tôi. Đây là nơi mình chia sẻ những bài viết thú vị, hướng dẫn và mẹo nhỏ về cuộc sống, công nghệ và sáng tạo.</p>
+
+<h3>Bài viết mới nhất:</h3>
+{% assign newest = site.posts | first %}
+<p>
+  👉 <a class="btn btn-primary" href="{{ newest.url }}">{{ newest.title }}</a>  
+  <small class="text-muted">({{ newest.date | date: "%d/%m/%Y" }})</small>
+</p>
+
+<!-- Quảng cáo nhẹ bên dưới -->
+<div class="my-4 text-center">
+  <ins class="adsbygoogle"
+       style="display:block"
+       data-ad-client="ca-pub-168980283359228"
+       data-ad-slot="YOUR_SLOT_ID"
+       data-ad-format="auto"
+       data-full-width-responsive="true"></ins>
+  <script>
+       (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
 </div>
