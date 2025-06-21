@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Game Vượt Chướng Ngại Vật – Dự án nhỏ, ý tưởng lớn"
+title: "Game Vượt Chướng Ngại Vật"
 date: 2025-06-25
 tags: [game, javascript, html, lập trình, dự án]
 ---
